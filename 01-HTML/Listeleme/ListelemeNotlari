@@ -1,0 +1,24 @@
+                             
+                                    Listeleme tagları
+
+--INTERVIEW QUESTION: HTML de kaç çeşit listeleme türü vardır.
+OL: Ordered List, 
+UL: Unordered List, 
+DL: Defination List    
+
+---------------------------------------------------------------------------------------------------------
+1- <ol></ol> == > Numarali liste olusturmak icin kullanilir
+2-> <li></li> ==> Listeye eleman eklemek icin kullanilir
+3-> <dl></dl> ==> Tanimlama listesi olusturmak icin
+4-> <dt></dt> ==> Listeye tanimlama terimi eklemek icin kullanilir
+5-> <dd></dd> ==> Terimin aciklanamasi icin kullanilir.
+
+------------------------------------------------------------------------------------------------------------
+
+Listeleme Turunu Degistirmek icin
+
+==* == <ol type="1 | A | a | I | i">   /// 
+    Nerden baslamasi gerektigini belirtmek icin start="?"> Kullanilir. 
+
+==* == <ul type="disc | square | circle">
+

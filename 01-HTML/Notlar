@@ -1,0 +1,126 @@
+--HTML: Hyper Text Markup Language
+--Web sayfalari hazirlamak icin kullanilan bir isaretleme dilidir. 
+ Programlama dili degildir.
+
+--Html komutlarina TAG denir <b>GIBI</b> 
+-Istisnalari disinda taglarin baslangic ve bitisleri vardir
+
+
+*******************************************
+INTERVIEW QUESTION: HTML de kapatılmayan taglar (void) hangileridir
+-ISTISNALARI: <img>, <br>, <hr> dir.
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+--Bir web sayfasi oluşturmak için temelde yapilmasi gerekenler:
+
+Html : Html komutlarinin tamamini kapsayan en temel tagdir
+Head : Sayfa ile ilgili genel bilgilerin ve tanimlarinin olduğu bölümdür.
+Body : İçerik kisminin olduğu bölümdür. Sayfada görülen tüm içerik bu
+bölüme konulamlidir..
+
+**************1-
+--<title> == URL ICINDE GOZUKECEK KISIM BURAYA YAZILIR.
+-Head tagı içinde bulunur ve tarayıcının başlık çubuğunda görüntülenecek metni belirler. SEO
+açısından çok değerlidir.
+
+******************************************************************
+            SEO ICIN ONEMLI NOKTALARI.
+Sayfa için en önemli anahtar kelimeler burada olmalıdır. Sayfa ile
+alakalı olmalı ve 60 karakteri geçmemelidir. Arama sonuçlarındaki
+başlık burada yazan ifadedir.
+
+***********************************************************************************************
+INTERVIEW QOUESTON: HTML5 in önceki versiyonlara göre avantajları nelerdir?
+
+1-Multimedya Taglari = > <video> ve <audio> geldi 
+
+2-Cizim = > Canvar(bitmap), Svg(vector)
+
+3-Semantik Taglar => header, footer, main , section , aside , article
+
+4-Inputlar icin yeni type'lar= > Datetime, Datetime-local, Date, Time, Week, Month, email, 
+Tel, url, search, range, number, color
+
+5-Inputlar icin yeni ATTRIBUTE'lar => 
+placeholder: inputlar boşken yönlendirici metinler konuşabilir.
+regex: regular expression tanımlamak için
+
+6-Bicimlendirme Taglari => Progress, Datalist, Details, Embed, Mark, Meter, Output
+
+7-Dinamik Ozellikler(API)=> Geolocation, Web storage (Local, Session), Drag-drop, Web workers, SSE (Server Side
+Events)
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+************************TEMEL BICIMLENDIRME TAGLARI ****************************
+
+**********************************INTERVIEW QUESTION: ***************************
+HTML de kodlama esnasında kullanılan beyaz alanların (space, enter, tab) ne avantajı vardır?
+
+A-White Spaces=> Tarayicilar HTML kodlari arasinda ki bosluklari tek bir karakter olarak yorumlar
+                   Alt satira gecme karakterini ise hic yorumlamaz. Bu sayede dev. daha okunabilir kod yazabilir.
+
+
+BICIMLENDIRME TAGLARI 
+
+1- <p> == Paragraflari yazmak iicn kullanilir
+2- <br> ==Bir alt satira gecmek icin kullanilir
+3-<h?> == Baslik olusturur. Standart 6 tane baslik tagi bulunur. h1,h2,h3,h4,h5,h6
+*****CEO***** : Sayfada ki en onemli bilgi h1 icine yazilmalidir.
+
+4-<hr> == Yatay bir cizgi olusturmak icin kullanilir.
+5-<strong> == Metinleri kalinlastirmak icin kullanilir. SEMANTIC DEGERI <b>'ye goreDAHA FAZLA 
+  **-<b> == Metinleri kalinlastirmak icin kullanilir.
+
+6-<em> == Italik yazdirmak icin kullanilir. SEMANTIC DEGER <i>'ye gore Daha FAZLA
+  **- <i> == Italik yazdirmak icin kullanilir
+
+7- <u> == Yazinin altini cizmek icin kullanilir.
+
+8- <del> == Yazinin ustunu cizmek icin kullanilir
+
+9- <pre> == White Space'de yapilan her islemin kullanicinin gorebilmesini saglar.
+
+10- <mark> == Yazilari vurgulamak icin kullanilir.
+
+11- <sub> == Alt simge olarak gostermek icin kullanilir
+
+12- <sup> == Ust simge yapmak icin kullanilir.
+
+
+-------------------------------------------------------------------------------------------------------------
+           *** ********************HTML entities ***************************
+Html dilinde özel olan karakterleri ya da
+klavyede bulunmayan karakterleri yazdırmak
+için çeşitli kodlar bulunmaktadır. Bunlara html
+entities denir.
+
+
+İşaret                          Html Kod
+                         
+(Boşluk)                         &nbsp;
+<                                &lt;
+>                                &gt;
+"                               aa&quot;
+&                               &amp;
+©                               &copy;
+®                               &reg;
+™                               &trade;
+
+-------------------------------------------------------------------------------------------------------------
+SEMANTIC VS NON-SEMANTIC
+
+Semantic=> Arama motorlari ve gelistiriciler iicn bir anlam icerirler. Bu tur taglar
+kapsadiklari elemani tasidiklari anlama gore belirli bir forma sokarlar
+
+Non-Semantic=> Bu taglar anlamsizdirlar. Sadece semantic taglari gruplandirmak icin kullanilir
+<div> ve <span>
+
+
+
+
